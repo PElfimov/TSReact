@@ -1,20 +1,31 @@
 {
-  "name": "my-app",
+  "name": "kartika-web",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "7.23.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "prettier": "^2.3.0"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^12.20.11",
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.3",
+    "mobx": "^6.3.2",
+    "mobx-react": "^7.2.0",
     "react": "^17.0.2",
+    "react-countdown": "^2.3.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "typescript": "^4.2.4",
+    "web-vitals": "^1.1.1",
+    "react-scroll": "^1.8.2"
   },
   "scripts": {
     "start": "react-scripts start",
